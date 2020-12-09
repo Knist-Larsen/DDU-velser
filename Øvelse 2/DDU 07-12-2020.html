@@ -1,0 +1,111 @@
+<!doctype html>
+<head>
+    <title>DDU Øvelse 2</title>
+    <style>
+        body {
+            color: black;
+            background-color: rgb(75, 206, 125);
+        }
+        footer  {
+            color: white;
+            background-color: black;
+            padding: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Øvelse 2 starter her-->
+    <h1>Øvelse 2</h1>
+    <h2>Hvad står HTML for?</h2>
+    <p>HTML står for HyperText Markup Language</p>
+
+    <h2>Hvad er formålet med HTML?</h2>
+    <p>En simpel og elegant måde at strukturer en indhold</p>
+
+    <h2>Hvordan indsætter man en kommentar i HTML?</h2>
+    <p>Det gør man således: &lt!--Hej dette er en kommentar--></p>
+
+    <h2>Hvad er et HTML-tag</h2>
+    <p>Et HTML-tag bruges til fortælle hvad der skal gøres med teksten efter tagget</p>
+
+    <h2>Har alle HTML-tags en end-tag</h2>
+    <p>Nej, ikke alle HTML-tags har et end-tag. &ltbr> er et HTML-tag som ikke har et end-tag</p>
+
+    <h2>Hvordan ser et end-tag ud?</h2>
+    <p>Et end-tag ligner start-tagget, bortset fra at det har en / foran</p>
+
+    <h2>Hvilken tag benyttes til at markere den største overskrift i et HTML-dokument?</h2>
+    <p>Der benyttes &lth1>overskift&lt/h1></p>
+
+    <h2>Hvordan indsættes et linjeskift i HTML?</h2>
+    <p>Der benyttes &ltbr></p>
+
+    <h2>Hvordan ændrer man baggrundsfarven på et HTML-dokument?</h2>
+    <p>Man kan både linke til et CSS-dokument der ændrer baggrundsfarven, men man kan også bruge &ltstyle> i HTML-dokumentet, for at få CSS funktionalitet</p>
+
+    <h2>Hvordan markere man tekst som <i>kursiv?</i></h2>
+    <p>Man benytter &lti>kursiv tekst&lt/i></p>
+
+    <h2><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Hvilken tag bruges til at konstruere et hyperlink?</a></h2>
+    <p>Der bruges &lta href="link">tekst der skal klikkes&lt/a></p>
+
+    <h2><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Hvordan kan man få et hyperlink-element til at åbne en ny fane/vindue?</a></h2>
+    <p>Man skriver det samme som før, men man tilføjer target="_blank" efter linket</p>
+
+    <h2>Hvad er et Inline-element?</h2>
+    <p>Et Inline-element er et &ltspan> inde i et &ltp>. Et &ltspan> starter ikke på en ny linje, og bruger kun den plads, som er nødvendig</p>
+
+    <h2>Hvordan laver man en nummerede liste i HTML?</h2>
+    <p>Man benytter &ltol> til at lave en ordnet/nummerede liste, og så bruger man &ltli> til at tilføje ting til listen</p>
+    <ol>
+        <li>hej</li>
+        <li>hej igen</li>
+        <li>hej igen igen</li>
+    </ol>
+
+    <h2>Hvordan ser et input-felt ud i HTML??</h2>
+    <p>Man tilføjer et input-felt med &ltinput type="text"> (Den første), og hvis man hvil bruge input-feltet til en kode kan man ændre typen fra test til password (Den anden)</p>
+    <input type="text">
+    <input type="password">
+
+    <h2>Hvordan laver man et tekst-felt i HTML?</h2>
+    <p>Se Input-felt</p>
+
+    <h2>Hvad er en drop-down liste og hvordan laver man en i HTML?</h2>
+    <p>En drop-down liste er, som navnet angiver, en liste der kan foldes ud.<br>Man laver en drop-down liste laves med &ltselect> ligesom med en nummerede liste, 
+        og så bruger man &ltoption> til valgmulighederne</p>
+    <select>
+        <option>Valgmulighed 1</option>
+        <option>Valgmulighed 2</option>
+        <option>Valgmulighed 3</option>
+    </select>
+
+    <h2>Hvordan indsætter man et billede i HTML?</h2>
+    <p>når man indsætter et billede bruger man &ltimg src="link til billede"></p>
+    <img src="http://strandboerne.dk/images/upload/Leder_Nicklas.gif">
+
+    <h2>Hvad er et blok-element i HTML?</h2>
+    <p>Et blok-element deler skærmen i blokke vertikalt, og man kan angive hvor mange procent eller pixels den skal fylde.<br>
+        Man bruger &ltdiv> til at lave et blok-element
+    </p>
+
+    <h2>Hvad er et footer-element, og hvad bruges det til?</h2>
+    <p>Et footer-element er et element der kan findes i bunden af en hjemmeside</p>
+    <p>En footer bruges oftest til nyttig information, som skal ses på alle sider, som for eksempel kontaktinformation og addresser.</p>
+
+    <h2>Hvilken funktion har et canvas-element i HTML?</h2>
+    <p>Et canvas kan kun bruges til at lave noget grafisk. For eksempel et spil eller et billede</p>
+    <p>Et canvas er gennemsigtigt, hvis der ikke er noget i det.</p>
+
+    <!--Øvelse 2 slutter her-->
+</body>
+
+<footer>
+    <p>Ideer til funktionalitet, som et website for Vestskoven Gymnasium bør have:</p>
+    <ol>
+        <li>Uge skema</li>
+        <li>Beskeder</li>
+        <li>Bookning af lokaler</li>
+    </ol>
+</footer>
